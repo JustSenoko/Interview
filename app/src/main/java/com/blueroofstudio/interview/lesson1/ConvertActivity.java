@@ -27,7 +27,8 @@ public class ConvertActivity extends AppCompatActivity {
     // обработка нажатия
     public void onToMetersPerSecClick(View view) {
         // получить входное значение
-        float sourceValue = Float.parseFloat(Objects.requireNonNull(sourceText.getText()).toString());
+        String sourceTextStringValue = Objects.requireNonNull(sourceText.getText()).toString();
+        float sourceValue = sourceTextStringValue.isEmpty()? 0 : Float.parseFloat(sourceTextStringValue);
         // инстанцировать конвертер
         Converter converter = new Converter(sourceValue);
         // преобразовать, обратите внимание на параметр ConvertToMetersPerSec
