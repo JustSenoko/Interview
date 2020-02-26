@@ -3,4 +3,6 @@
     <string name="kmh">км/ч</string>
     <string name="ms">м/с</string>
     <string name="to_ms">в м/с</string>
+    
+    <string name="cycle_fragment">Hello cycle fragment</string>
 </resources>
