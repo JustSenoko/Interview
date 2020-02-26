@@ -3,6 +3,9 @@
     <string name="kmh">км/ч</string>
     <string name="ms">м/с</string>
     <string name="to_ms">в м/с</string>
-    
+
     <string name="cycle_fragment">Hello cycle fragment</string>
+
+    <string name="appwidget_text">Count widgets</string>
+    <string name="say_hello_widget">Say hello</string>
 </resources>
